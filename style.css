@@ -1,0 +1,60 @@
+body {
+    background-color: #ffc;
+}
+
+.persons {
+    display: flex;
+    justify-content: center;
+    min-height: 400px;
+    margin-top: 2rem;
+}
+
+.persons > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid #a00;
+    position: relative;
+}
+
+.terug {
+    text-align: center;
+}
+
+a:hover {
+    color: #f00;
+    font-weight: 600;
+}
+
+H1 {
+    background-color: #0c0;
+    text-align: center;
+    width: 100%;
+    margin: 2.5rem;
+    padding: 1rem 0 1rem 0;
+}
+
+img {
+    max-width: 400px;
+    max-height: 400px;
+}
+
+#ok:hover, #nok:hover {
+    background-color: #ff0;
+}
+
+#ok, #nok {
+    background-color: #fff;
+    margin: 1rem;
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: #0c0;
+}
+
+#likes {
+    margin-bottom: 0.5rem;
+}
+
+#dislikes {
+    margin-bottom: 1.5rem;
+}
